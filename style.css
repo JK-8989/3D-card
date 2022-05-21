@@ -1,0 +1,35 @@
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ddd;
+  margin: auto;
+}
+.container {
+  height: 100vh;
+}
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: .5em;
+}
+img {
+  max-width: 80%;
+}
+.yoga {
+  position: absolute;
+}
+.yoga:nth-child(1){
+  width: 10%;
+  left: 10%;
+}
+.yoga:nth-child(2){
+  width: 50%;
+  right: 30%;
+}
+.yoga:nth-child(3){
+  width: 70%;
+  right: 5%;
+  bottom: 5%;
+}
